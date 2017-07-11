@@ -1,9 +1,5 @@
 # newbie-traning
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/uncovertruth/newbie-training.svg)](https://greenkeeper.io/)
-
-[![Build Status](https://travis-ci.org/uncovertruth/newbie-training.svg?branch=master)](https://travis-ci.org/uncovertruth/newbie-training)
-
 - Google Tag Manager
 - Google Analytics
 - USERDIVE
@@ -59,7 +55,7 @@ console.log('hello world')
 
 ## サイトを立ち上げる(公開する)
 
-> TODO
+![publish](./img/publish.gif)
 
 ----
 

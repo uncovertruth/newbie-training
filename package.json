@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "reveal-md README.md --static docs",
+    "start": "reveal-md README.md",
     "test": "textlint -c @uncovertruth/textlint-config-ja README.md"
   }
 }

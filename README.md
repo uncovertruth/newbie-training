@@ -1,5 +1,7 @@
 # newbie-traning
 
+[![Build Status](https://travis-ci.org/uncovertruth/newbie-training.svg?branch=master)](https://travis-ci.org/uncovertruth/newbie-training)
+
 - Google Tag Manager
 - Google Analytics
 - USERDIVE

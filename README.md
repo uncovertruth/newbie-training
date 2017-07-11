@@ -1,9 +1,5 @@
 # newbie-traning
 
-[![Build Status](https://travis-ci.org/uncovertruth/newbie-training.svg?branch=master)](https://travis-ci.org/uncovertruth/newbie-training)
-[![devDependencies Status](https://david-dm.org/uncovertruth/newbie-training/dev-status.svg)](https://david-dm.org/uncovertruth/newbie-training?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/uncovertruth/newbie-training.svg)](https://greenkeeper.io/)
-
 - Google Tag Manager
 - Google Analytics
 - USERDIVE

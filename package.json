@@ -1,0 +1,17 @@
+{
+  "name": "@uncovertruth/newbie-traning",
+  "version": "0.0.1",
+  "main": "n/a",
+  "repository": "ssh://git@github.com/uncovertruth/newbie-training.git",
+  "author": "UNCOVER TRUTH Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "@uncovertruth/textlint-config-ja": "^0.3.0",
+    "reveal-md": "^0.3.4",
+    "textlint": "^8.2.1"
+  },
+  "scripts": {
+    "build": "reveal-md README.md --static docs",
+    "test": "textlint -c @uncovertruth/textlint-config-ja README.md"
+  }
+}

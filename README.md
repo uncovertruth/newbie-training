@@ -61,14 +61,13 @@ console.log('hello world')
 
 ## GTMのIDを書き換えて保存する
 
-> TODO
+![edit id](./img/edit-id.gif)
 
 ---
 
 ## Google Analyticsを反映する
 
 ![ga](./img/ga.gif)
-
 
 ----
 
@@ -102,13 +101,9 @@ ud("analyze");
 
 ## トリガーを作る（限定）
 
-> TODO
+`newbie-training/?userdive=1`
 
-----
-
-## カスタム変数
-
-> TODO
+![tregger create](./img/trigger-create.png)
 
 ---
 

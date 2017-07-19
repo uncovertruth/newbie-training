@@ -67,7 +67,7 @@ console.log('hello world')
 
 ## Google Analyticsを反映する
 
-![ga](./img/ga.gif)
+![ga](./img/ga.png)
 
 ----
 
@@ -76,6 +76,14 @@ console.log('hello world')
 ![trigger](./img/trigger.gif)
 
 ---
+
+## 作業を開始する
+
+workspace を作る
+
+![workspace](./img/workspace.gif)
+
+----
 
 ## USERDIVE にドメイン登録
 
@@ -105,8 +113,24 @@ ud("analyze");
 
 ![tregger create](./img/trigger-create.png)
 
----
+----
 
-## Google Optimize
+## 動作確認をする
 
-> TODO
+プレビューモードを使いましょう
+
+![preview](./img/preview.gif)
+
+----
+
+## クリックした時に
+
+```html
+<script>
+if (jQuery) {
+  jQuery('#about').on('click', function (e) {
+    ud('setCustomVar', ['about click'])
+  })
+}
+</script>
+```

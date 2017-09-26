@@ -6,7 +6,7 @@
     "@uncovertruth/examples": "github:uncovertruth/examples"
   },
   "devDependencies": {
-    "@uncovertruth/textlint-config-ja": "^0.3.0",
+    "@uncovertruth/textlint-config-ja": "^0.4.0",
     "pug-cli": "^1.0.0-alpha6",
     "reveal-md": "^0.4.0",
     "textlint": "^8.2.1"

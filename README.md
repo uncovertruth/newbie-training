@@ -1,5 +1,7 @@
 # newbie-traning
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/uncovertruth/newbie-training.svg)](https://greenkeeper.io/)
+
 - Google Tag Manager
 - Google Analytics
 - USERDIVE

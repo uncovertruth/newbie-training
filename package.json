@@ -22,7 +22,7 @@
     "build:custom": "reveal-md custom.md --static docs/custom/",
     "build:example": "pug index.pug -P -o docs",
     "build:tutorial": "reveal-md tutorial.md --static docs/tutorial/",
-    "clean": "rimraf docs/slides",
+    "clean": "rimraf docs/slides docs/custom docs/tutorial",
     "start": "reveal-md",
     "test": "textlint -c @uncovertruth/textlint-config-ja README.md"
   }

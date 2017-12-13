@@ -7,16 +7,35 @@
   },
   "devDependencies": {
     "@uncovertruth/textlint-config-ja": "^0.5.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "npm-run-all": "^4.1.2",
     "pug-cli": "^1.0.0-alpha6",
+    "pug-lint": "^2.5.0",
+    "pug-lint-config-uncovertruth": "^0.0.2",
     "reveal-md": "^1.0.0",
+    "rimraf": "^2.6.2",
     "textlint": "^9.0.0"
   },
   "license": "MIT",
+  "lint-staged": {
+    "*.pug": [
+      "pug-lint"
+    ],
+    "*.md": [
+      "textlint --cache -c @uncovertruth/textlint-config-ja"
+    ]
+  },
   "main": "n/a",
+  "private": true,
   "repository": "ssh://git@github.com/uncovertruth/newbie-training.git",
   "scripts": {
-    "build": "pug index.pug -P -o docs && npm start -- --static docs/slides/",
-    "start": "reveal-md README.md",
+    "build": "npm run clean && run-p build:*",
+    "build:custom": "reveal-md custom.md --static docs/custom/",
+    "build:example": "pug index.pug -P -o docs",
+    "build:tutorial": "reveal-md tutorial.md --static docs/tutorial/",
+    "clean": "rimraf docs/slides docs/custom docs/tutorial",
+    "precommit": "lint-staged",
     "test": "textlint -c @uncovertruth/textlint-config-ja README.md"
   }
 }

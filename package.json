@@ -36,7 +36,6 @@
     "build:tutorial": "reveal-md tutorial.md --static docs/tutorial/",
     "clean": "rimraf docs/slides docs/custom docs/tutorial",
     "precommit": "lint-staged",
-    "prepush": "npm run build && git add docs",
     "test": "textlint -c @uncovertruth/textlint-config-ja README.md"
   }
 }

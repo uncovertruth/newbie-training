@@ -22,7 +22,7 @@
     "*.pug": [
       "pug-lint"
     ],
-    "./*.md": [
+    "*.md": [
       "textlint --cache -c @uncovertruth/textlint-config-ja"
     ]
   },

@@ -88,3 +88,4 @@ This is **Too Difficult**
 ## Click Trigger Activate
 
 ![onclick](./img/click-activate.gif)
+

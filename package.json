@@ -35,7 +35,8 @@
     "build:example": "pug index.pug -P -o docs",
     "build:tutorial": "reveal-md tutorial.md --static docs/tutorial/",
     "clean": "rimraf docs/slides docs/custom docs/tutorial",
+    "lint": "textlint -c @uncovertruth/textlint-config-ja custom.md tutorial.md --cache",
     "precommit": "lint-staged",
-    "test": "textlint -c @uncovertruth/textlint-config-ja README.md"
+    "test": "run-p lint build"
   }
 }

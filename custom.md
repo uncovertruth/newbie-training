@@ -26,7 +26,7 @@ This is **Too Difficult**
 </html>
 ```
 
----
+----
 
 ## What is HTML ID
 
@@ -37,7 +37,7 @@ This is **Too Difficult**
 <button id='my-button'>Click Me!</button>
 ```
 
----
+----
 
 ## What is HTML Classes
 
@@ -64,7 +64,7 @@ This is **Too Difficult**
 * <https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById>
 * <https://developer.mozilla.org/ja/docs/Web/API/Document/getElementsByClassName>
 
----
+----
 
 ## Developer Tools
 
@@ -82,3 +82,9 @@ This is **Too Difficult**
 ```html
 <button id='my-button'>Click Me!</button>
 ```
+
+----
+
+## Click Trigger Activate
+
+![onclick](./img/click-activate.gif)

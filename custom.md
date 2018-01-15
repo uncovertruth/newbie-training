@@ -1,3 +1,8 @@
+---
+separator: <!--s-->
+verticalSeparator: <!--v-->
+---
+
 # Google Tag Manager Custom Event
 
 This is **Too Difficult**
@@ -5,7 +10,7 @@ This is **Too Difficult**
 * Select element
 * Callback function
 
----
+<!--s-->
 
 ## What is HTML
 
@@ -26,18 +31,18 @@ This is **Too Difficult**
 </html>
 ```
 
-----
+<!--v-->
 
 ## What is HTML ID
 
-<https://www.w3schools.com/tags/att_global_id.asp>
-<https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id>
+* <https://www.w3schools.com/tags/att_global_id.asp>
+* <https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id>
 
 ```html
 <button id='my-button'>Click Me!</button>
 ```
 
-----
+<!--v-->
 
 ## What is HTML Classes
 
@@ -56,7 +61,7 @@ This is **Too Difficult**
 <p>London is the capital of England.</p>
 ```
 
----
+<!--s-->
 
 ## Select Element
 
@@ -64,14 +69,14 @@ This is **Too Difficult**
 * <https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById>
 * <https://developer.mozilla.org/ja/docs/Web/API/Document/getElementsByClassName>
 
-----
+<!--v-->
 
 ## Developer Tools
 
 * <https://dotinstall.com/lessons/basic_chrome_dev_v2>
 * <https://dotinstall.com/lessons/basic_chrome_dev_v2/28009>
 
----
+<!--s-->
 
 ## Event Trigger
 
@@ -83,9 +88,8 @@ This is **Too Difficult**
 <button id='my-button'>Click Me!</button>
 ```
 
-----
+<!--v-->
 
 ## Click Trigger Activate
 
 ![onclick](./img/click-activate.gif)
-

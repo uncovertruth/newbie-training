@@ -10,6 +10,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "npm-run-all": "^4.1.2",
+    "prettier": "^1.10.2",
     "pug-cli": "^1.0.0-alpha6",
     "pug-lint": "^2.5.0",
     "pug-lint-config-uncovertruth": "^0.0.2",
@@ -23,6 +24,7 @@
       "pug-lint"
     ],
     "*.md": [
+      "prettier --write",
       "textlint --cache -c @uncovertruth/textlint-config-ja"
     ]
   },

@@ -6,7 +6,7 @@
     "@uncovertruth/examples": "github:uncovertruth/examples"
   },
   "devDependencies": {
-    "@uncovertruth/textlint-config-ja": "^0.8.0",
+    "@uncovertruth/textlint-config-ja": "^4.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
     "npm-run-all": "^4.1.2",

@@ -1,5 +1,21 @@
 {
+  "timezone": "Japan",
   "extends": [
     "config:base"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "devDependencies": {
+    "automerge": true
+  },
+  "labels": [
+    "dependencies"
+  ],
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
   ]
 }

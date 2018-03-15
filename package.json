@@ -19,15 +19,6 @@
     "textlint": "10.1.4"
   },
   "license": "MIT",
-  "lint-staged": {
-    "*.pug": [
-      "pug-lint"
-    ],
-    "*.md": [
-      "prettier --write",
-      "textlint --cache -c @uncovertruth/textlint-config-ja"
-    ]
-  },
   "main": "n/a",
   "private": true,
   "repository": "ssh://git@github.com/uncovertruth/newbie-training.git",

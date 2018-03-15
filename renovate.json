@@ -13,6 +13,15 @@
   "labels": [
     "dependencies"
   ],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/examples/**",
+    "**/__tests__/**",
+    "**/test/**",
+    "**/tests/**",
+    "docs/**"
+  ],
   "schedule": [
     "after 10pm every weekday",
     "before 5am every weekday",

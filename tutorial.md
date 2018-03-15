@@ -40,9 +40,9 @@ console.log('hello world')
 
 ## サイトを作って反映に挑戦する [(quickstart)](https://developers.google.com/tag-manager/quickstart)
 
-1. GTM コンテナを作成する(ID を発効する)
-1. サイトを立ち上げる(Github を使う)
-1. GTM の ID 書き換えて保存する
+1.  GTM コンテナを作成する(ID を発効する)
+1.  サイトを立ち上げる(Github を使う)
+1.  GTM の ID 書き換えて保存する
 
 普段はやらないのでゆっくりやりましょう！
 

@@ -80,7 +80,7 @@ This is **Too Difficult**
 
 ## Event Trigger
 
-* Refs: <https://support.google.com/tagmanager/answer/6106961>
+* Refs: [support.google.com/tagmanager](https://support.google.com/tagmanager/topic/7679384?visit_id=0-636576243162229847-4165431313&rd=1)
   * Click ID
   * Click Classes
 

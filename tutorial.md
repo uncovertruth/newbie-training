@@ -96,7 +96,7 @@ workspace を作る
 
 <!--v-->
 
-## USERDIVE を反映する [(公式)](http://docs.userdive.com/ja/web/devguide/javascript/)
+## USERDIVE を反映する [(公式)](https://docs.userdive.com/ja/web/devguide/javascript/)
 
 ```html
 <!-- USERDIVE tag -->

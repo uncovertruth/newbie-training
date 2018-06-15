@@ -3751,9 +3751,9 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
-reveal-md@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/reveal-md/-/reveal-md-2.0.5.tgz#feaeefefad88c4b48d251717dba0c7a993edf403"
+reveal-md@2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/reveal-md/-/reveal-md-2.0.6.tgz#0133d72e85127de8c2ef5c11f972bbed7c3a6c83"
   dependencies:
     bluebird "3.5.1"
     commander "2.15.1"

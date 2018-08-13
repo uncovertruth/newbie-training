@@ -24,9 +24,9 @@
   "repository": "ssh://git@github.com/uncovertruth/newbie-training.git",
   "scripts": {
     "build": "npm run clean && run-p build:*",
-    "build:custom": "reveal-md custom.md --static docs/custom/",
+    "build:custom": "reveal-md custom.md --static docs/custom/ --port 1948",
     "build:example": "pug index.pug -P -o docs",
-    "build:tutorial": "reveal-md tutorial.md --static docs/tutorial/",
+    "build:tutorial": "reveal-md tutorial.md --static docs/tutorial/ --port 1949",
     "clean": "rimraf docs/slides docs/custom docs/tutorial",
     "lint": "textlint -c @uncovertruth/textlint-config-ja custom.md tutorial.md --cache",
     "precommit": "lint-staged",

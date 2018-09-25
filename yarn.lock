@@ -574,7 +574,11 @@ binary-extensions@^1.0.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.11.0.tgz#46aa1751fb6a2f93ee5e689bb1087d4b14c6c205"
 
-bluebird@3.5.1, bluebird@^3.0.5, bluebird@^3.5.1:
+bluebird@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.2.tgz#1be0908e054a751754549c270489c1505d4ab15a"
+
+bluebird@^3.0.5, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
@@ -862,9 +866,9 @@ commander@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-1.0.0.tgz#5e6a88e7070ff5908836ead19169548c30f90bcd"
 
-commander@2.17.1:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
+commander@2.18.0:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.18.0.tgz#2bf063ddee7c7891176981a2cc798e5754bc6970"
 
 commander@^2.14.1, commander@^2.8.1, commander@^2.9.0:
   version "2.15.1"
@@ -1608,7 +1612,18 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@7.1.2, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1:
+glob@7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.0.3, glob@^7.0.5, glob@^7.1.1:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -2517,7 +2532,11 @@ lodash.padend@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.padend/-/lodash.padend-4.6.1.tgz#53ccba047d06e158d311f45da625f4e49e6f166e"
 
-lodash@4.17.10, lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5:
+lodash@4.17.11:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -2767,9 +2786,9 @@ ms@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
-mustache@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/mustache/-/mustache-2.3.1.tgz#ef5db3c0d11f1640e9baa47f4e65ba0c3fcd82b9"
+mustache@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-3.0.0.tgz#3de22dd9ba38152f7355399a953dd4528c403338"
 
 nan@^2.9.2:
   version "2.10.0"
@@ -3009,9 +3028,9 @@ onetime@^1.0.0:
   version "1.1.0"
   resolved "http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
-opn@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/opn/-/opn-5.3.0.tgz#64871565c863875f052cfdf53d3e3cb5adb53b1c"
+opn@5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.4.0.tgz#cb545e7aab78562beb11aa3bfabc7042e1761035"
   dependencies:
     is-wsl "^1.1.0"
 
@@ -3757,22 +3776,22 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
-reveal-md@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/reveal-md/-/reveal-md-2.1.1.tgz#7b6aad11ac6332b76f39126089f00275d03ea13a"
+reveal-md@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/reveal-md/-/reveal-md-2.1.2.tgz#39e54efe3fb9920cbe7fd2ed1c129dceccf2c1e2"
   dependencies:
-    bluebird "3.5.1"
-    commander "2.17.1"
+    bluebird "3.5.2"
+    commander "2.18.0"
     express "4.16.3"
     fs-extra "5.0.0"
-    glob "7.1.2"
+    glob "7.1.3"
     got "8.3.2"
     highlight.js "9.12.0"
     image-data-uri "1.1.1"
     livereload "0.7.0"
-    lodash "4.17.10"
-    mustache "2.3.1"
-    opn "5.3.0"
+    lodash "4.17.11"
+    mustache "3.0.0"
+    opn "5.4.0"
     reveal.js "3.7.0"
     serve-favicon "2.5.0"
     yaml-front-matter "4.0.0"

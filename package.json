@@ -16,7 +16,7 @@
     "pug-lint-config-uncovertruth": "4.2.0",
     "reveal-md": "2.4.1",
     "rimraf": "2.6.3",
-    "textlint": "11.2.1"
+    "textlint": "11.2.2"
   },
   "license": "MIT",
   "main": "n/a",

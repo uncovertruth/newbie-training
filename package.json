@@ -14,7 +14,7 @@
     "pug-cli": "1.0.0-alpha6",
     "pug-lint": "2.6.0",
     "pug-lint-config-uncovertruth": "4.2.0",
-    "reveal-md": "2.4.1",
+    "reveal-md": "4.3.0",
     "rimraf": "2.7.1",
     "textlint": "11.3.1"
   },
